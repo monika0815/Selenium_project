@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="564" started-at="2018-09-19T10:30:43Z" finished-at="2018-09-19T10:30:43Z">
+  <suite name="Default suite" duration-ms="544" started-at="2018-09-19T11:17:15Z" finished-at="2018-09-19T11:17:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="564" started-at="2018-09-19T10:30:43Z" finished-at="2018-09-19T10:30:43Z">
-      <class name="com.Day3.DataDrivenWithExcel">
-        <test-method status="PASS" signature="testcase(java.lang.String, java.lang.String)[pri:0, instance:com.Day3.DataDrivenWithExcel@59fa1d9b]" name="testcase" duration-ms="10" started-at="2018-09-19T10:30:43Z" data-provider="monika" finished-at="2018-09-19T10:30:43Z">
+    <test name="Default test" duration-ms="544" started-at="2018-09-19T11:17:15Z" finished-at="2018-09-19T11:17:15Z">
+      <class name="com.Day3.ExtentReport">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.Day3.ExtentReport@6093dd95]" name="startTest" is-config="true" duration-ms="180" started-at="2018-09-19T11:17:15Z" finished-at="2018-09-19T11:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="negativetest()[pri:0, instance:com.Day3.ExtentReport@6093dd95]" name="negativetest" duration-ms="9" started-at="2018-09-19T11:17:15Z" finished-at="2018-09-19T11:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativetest -->
+        <test-method status="PASS" signature="resultmethod(org.testng.ITestResult)[pri:0, instance:com.Day3.ExtentReport@6093dd95]" name="resultmethod" is-config="true" duration-ms="4" started-at="2018-09-19T11:17:15Z" finished-at="2018-09-19T11:17:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Monika]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Monika123]]>
+                <![CDATA[[TestResult name=negativetest status=SUCCESS method=ExtentReport.negativetest()[pri:0, instance:com.Day3.ExtentReport@6093dd95] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-      </class> <!-- com.Day3.DataDrivenWithExcel -->
+        </test-method> <!-- resultmethod -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.Day3.ExtentReport@6093dd95]" name="closebrowser" is-config="true" duration-ms="329" started-at="2018-09-19T11:17:15Z" finished-at="2018-09-19T11:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Day3.ExtentReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

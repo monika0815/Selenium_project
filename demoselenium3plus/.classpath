@@ -36,5 +36,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/a07208trng_b4a.04.28/Desktop/ShineXLS.jar"/>
+	<classpathentry kind="lib" path="C:/Users/a07208trng_b4a.04.28/Desktop/extentreports-2.41.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
